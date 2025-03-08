@@ -12,30 +12,6 @@
 
 ---
 
-## 📦 نصب
-
-با کمک Jitpack
-
-### **settings.gradle.kts**
-```kotlin
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url = uri("https://jitpack.io") }
-		}
-	}
-```
-
-### **dependency file**
-```kotlin
-	dependencies {
-		implementation("com.github.alirezaahmadi056:ripito:v1.0.0")
-	}
-```
-
----
-
 ## 🚀 نحوه استفاده
 
 ### **📌 درخواست GET**
