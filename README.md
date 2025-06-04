@@ -14,7 +14,8 @@
 
 ## 🚀 نحوه استفاده
 
-# ویدیو آموزش نحوه استفاده :   https://dl.daneshjooyar.com/mvie/Ahmadi-Alireza/video-news/05-ripito.mp4
+# ویدیو آموزش نحوه استفاده : 
+https://dl.daneshjooyar.com/mvie/Ahmadi-Alireza/video-news/05-ripito.mp4
 
 ### **📌 درخواست GET**
 
