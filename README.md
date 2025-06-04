@@ -3,6 +3,26 @@
 ## 🔥 معرفی
 **Ripito** یک کتابخانه‌ی فوق‌العاده برای انجام درخواست‌های HTTP در اندروید است که نسبت به Retrofit بسیار **ساده‌تر، سریع‌تر و سبک‌تر** طراحی شده است. این کتابخانه از `HttpURLConnection` و `Kotlin Coroutines` استفاده می‌کند تا تجربه‌ای بهینه و بدون پیچیدگی را ارائه دهد.
 
+# نحوه افزودن کتابخانه به گردل :
+Add the JitPack repository to settings.gradle file
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ...      
+        maven(url = "https://jitpack.io")
+    }
+}
+```
+
+Add the dependencies to app-level build.gradle file
+```gradle
+dependencies {
+    ...
+    implementation("com.github.alirezaahmadi056:ripito:v0.0.7")
+}
+```
+
 ## 🎯 ویژگی‌ها
 ✅ **سادگی در استفاده**: بدون نیاز به ساخت اینترفیس و آنوتیشن‌های پیچیده مانند Retrofit.
 ✅ **پشتیبانی از GET و POST**: قابلیت ارسال درخواست‌های GET و POST با پارامترهای داینامیک.
