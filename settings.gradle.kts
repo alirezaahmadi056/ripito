@@ -17,7 +17,8 @@ dependencyResolutionManagement {
     repositories {
         flatDir {
             dirs("libs")
-        }        google()
+        }
+        google()
         mavenCentral()
     }
 }
