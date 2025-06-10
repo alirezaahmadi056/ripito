@@ -19,7 +19,7 @@ Add the dependencies to app-level build.gradle file
 ```gradle
 dependencies {
     ...
-    implementation("com.github.alirezaahmadi056:ripito:v1.0.2")
+    implementation("com.github.alirezaahmadi056:ripito:v1.0.5")
 }
 ```
 
